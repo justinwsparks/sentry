@@ -5,10 +5,12 @@ import {MdTabsModule, MdCardModule, MdInputModule} from '@angular/material';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { SiteDetailsFormComponent } from './site-details-form/site-details-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SiteDetailsFormComponent
   ],
   imports: [
     BrowserModule,
