@@ -6,11 +6,13 @@ import 'hammerjs';
 
 import { AppComponent } from './app.component';
 import { SiteDetailsFormComponent } from './site-details-form/site-details-form.component';
+import { TechnicianInformationComponent } from './technician-information/technician-information.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SiteDetailsFormComponent
+    SiteDetailsFormComponent,
+    TechnicianInformationComponent
   ],
   imports: [
     BrowserModule,
